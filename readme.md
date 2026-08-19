@@ -97,7 +97,3 @@ If you fork this repository, update the module path in `go.mod` and internal imp
     $ go mod edit -module github.com/YOUR_USERNAME/ast-sentinel
     $ find . -type f -name "*.go" -exec sed -i 's|github.com/ORIGINAL_OWNER/ast-sentinel|github.com/YOUR_USERNAME/ast-sentinel|g' {} +
     $ go mod tidy
-
-License
--------
-MIT License.
